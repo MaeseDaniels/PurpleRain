@@ -2,8 +2,6 @@ let canvas= document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 let renderInterval = undefined;
 
-const depthOptions = [0, 1, 2];
-
 const sizesAndSpeed = {
   0: {
     size: 6,
